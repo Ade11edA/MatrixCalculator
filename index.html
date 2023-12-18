@@ -1,24 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Matrix inverse calculator</title>
+    <title>Matrix Calculator</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
+
 <body>
     <form action="">
         <div class="grid-container">
-        <div class="grid-item"></div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>  
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>  
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>  
-
+            <div class="grid-item"><input type="float" name="a" id="a"></div>
+            <div class="grid-item"><input type="float" name="b" id="b"></div>
+            <div class="grid-item"><input type="float" name="c" id="c"></div>
+            <div class="grid-item"><input type="float" name="d" id="d"></div>
+            <div class="grid-item"><input type="float" name="e" id="e"></div>
+            <div class="grid-item"><input type="float" name="f" id="f"></div>
+            <div class="grid-item"><input type="float" name="g" id="g"></div>
+            <div class="grid-item"><input type="float" name="h" id="h"></div>
+            <div class="grid-item"><input type="float" name="i" id="i"></div> </div>
+            <button>Submit</button>
     </form>
+    <p id="adj">Adj(A) =</p>
+    <div class="grid-container">
+        <div class="grid-item"><p id="a-adj"></p></div>
+        <div class="grid-item"><p id="b-adj"></p></div>
+        <div class="grid-item"><p id="c-adj"></p></div>
+        <div class="grid-item"><p id="d-adj"></p></div>
+        <div class="grid-item"><p id="e-adj"></p></div>
+        <div class="grid-item"><p id="f-adj"></p></div>
+        <div class="grid-item"><p id="g-adj"></p></div>
+        <div class="grid-item"><p id="h-adj"></p></div>
+        <div class="grid-item"><p id="i-adj"></p></div>
+    </div>
+    <p id="det">det(A) = </p>
+    <p id="inverse">A^-1 =</p>
+    <div class="grid-container">
+        <div class="grid-item"><p id="a-inverse"></p></div>
+        <div class="grid-item"><p id="b-inverse"></p></div>
+        <div class="grid-item"><p id="c-inverse"></p></div>
+        <div class="grid-item"><p id="d-inverse"></p></div>
+        <div class="grid-item"><p id="e-inverse"></p></div>
+        <div class="grid-item"><p id="f-inverse"></p></div>
+        <div class="grid-item"><p id="g-inverse"></p></div>
+        <div class="grid-item"><p id="h-inverse"></p></div>
+        <div class="grid-item"><p id="i-inverse"></p></div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
